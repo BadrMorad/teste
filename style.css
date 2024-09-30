@@ -1,12 +1,11 @@
 /* *************************general*********************************** */
 * {
-  margin: 0;
+  margin: 0 auto;
   padding: 0;
   box-sizing: border-box;
 }
 #container {
   width: 80%;
-  margin: auto;
   /* % :taille au parent
   px : 1px
   en : unité de mesure par raport à la police d'écriture ( 1em = 16px */
@@ -14,18 +13,25 @@
 
 body {
   background-color: goldenrod;
-  /* *********************************header***************************** */
-}
-header {
-  background-color: blue;
-  color: white;
-  text-align: center;
-}
-h2 {
-  padding: 0.2em;
-}
-h2 {
-  padding: 0.2em;
 }
 
-bojour
+/* *********************************header***************************** */
+header {
+  background-color: rgb(8, 106, 218);
+  text-align: center;
+}
+
+h2 {
+  color: white;
+  text-align: center;
+  padding: 0.4em 0;
+}
+
+.simpsons {
+  width: 100%;
+  vertical-align: top;
+}
+/* ************************************************ main nav************************************************* */
+main {
+  background-color: white;
+}
