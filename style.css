@@ -4,12 +4,23 @@
   padding: 0;
   box-sizing: border-box;
 }
-#container{
-  width:80% ;
+#container {
+  width: 80%;
   margin: auto;
   /* % :taille au parent
   px : 1px
   en : unité de mesure par raport à la police d'écriture ( 1em = 16px */
-
 }
-body
+
+body {
+  background-color: goldenrod;
+  /* *********************************header***************************** */
+}
+header {
+  background-color: blue;
+  color: white;
+  text-align: center;
+}
+h2 {
+  padding: 0.2em;
+}
