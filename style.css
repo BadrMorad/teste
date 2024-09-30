@@ -3,6 +3,7 @@
   margin: 0 auto;
   padding: 0;
   box-sizing: border-box;
+  list-style: none;
 }
 #container {
   width: 80%;
@@ -21,7 +22,15 @@ header {
   text-align: center;
 }
 
-h2 {
+nav {
+  background-color: rgb(8, 106, 218);
+}
+
+nav a {
+  color: white;
+}
+
+h1 {
   color: white;
   text-align: center;
   padding: 0.4em 0;
@@ -33,5 +42,17 @@ h2 {
 }
 /* ************************************************ main nav************************************************* */
 main {
+  display: flex;
   background-color: white;
+  color: black;
+}
+h2 {
+  color: yellow;
+}
+footer {
+  background-color: rgb(8, 106, 218);
+  display: block;
+}
+aside {
+  background-color: blue;
 }
