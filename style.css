@@ -1,17 +1,15 @@
-h2 {
-  color: brown;
+/* *************************general*********************************** */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-h3,
-em {
-  color: black(255, 102, 0);
-}
-p,
-em {
-  color: rgb(35, 24, 45);
-}
-body,
-em {
-  background-color: burlywood;
-}
+#container{
+  width:80% ;
+  margin: auto;
+  /* % :taille au parent
+  px : 1px
+  en : unité de mesure par raport à la police d'écriture ( 1em = 16px */
 
-
+}
+body
