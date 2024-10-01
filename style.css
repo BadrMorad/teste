@@ -82,13 +82,11 @@ footer {
   display: block;
 }
 aside {
-  background-color: blue;
+  background-color: rgb(8, 106, 218);
   text-align: center;
   width: 20%;
   padding: 1em;
 }
-
-
 
 li {
   padding: 0.1em;
@@ -96,7 +94,7 @@ li {
 /* **********************************************footer*************************** */
 footer {
   display: block;
-  background-color: blue;
+  background-color: rgb(8, 106, 218);
   text-align: justify;
   text-align: center;
   color: white;
