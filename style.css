@@ -24,6 +24,8 @@ header {
 
 nav {
   background-color: rgb(8, 106, 218);
+  height: fit-content;
+  padding: 2em;
 }
 
 nav a {
@@ -35,7 +37,18 @@ h1 {
   text-align: center;
   padding: 0.4em 0;
 }
-
+h3 {
+  margin-bottom: 10px;
+}
+.good_by {
+  color: white;
+  text-align: center;
+  margin-bottom: 10px;
+}
+h3 {
+  color: white;
+  text-align: center;
+}
 .simpsons {
   width: 100%;
   vertical-align: top;
@@ -46,8 +59,23 @@ main {
   background-color: white;
   color: black;
 }
+article {
+  width: 60%;
+  text-align: justify;
+  font-size: medium;
+  padding: 1em;
+}
+main {
+  display: flex;
+  padding-top: 3em;
+  padding-bottom: 3em;
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
 h2 {
   color: yellow;
+  margin-bottom: 10px;
 }
 footer {
   background-color: rgb(8, 106, 218);
@@ -55,4 +83,21 @@ footer {
 }
 aside {
   background-color: blue;
+  text-align: center;
+  width: 20%;
+  padding: 1em;
+}
+
+
+
+li {
+  padding: 0.1em;
+}
+/* **********************************************footer*************************** */
+footer {
+  display: block;
+  background-color: blue;
+  text-align: justify;
+  text-align: center;
+  color: white;
 }
