@@ -99,3 +99,143 @@ footer {
   text-align: center;
   color: white;
 }
+/* Pour les écrans de 768px ou moins (y compris les téléphones ) */
+@media (max-width: 768px) {
+  body {
+    font-size: 14px;
+  }
+
+  .container {
+    width: 100%;
+    padding: 10px;
+  }
+
+  img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media (max-width: 768px) {
+  body {
+  }
+
+  #container {
+    width: 100%;
+  }
+
+  main {
+    flex-direction: column;
+  }
+
+  article {
+    width: 100%;
+  }
+
+  aside {
+    width: 100%;
+  }
+
+  nav {
+    padding: 1em;
+    width: 100%;
+  }
+
+  h1 {
+    font-size: 1.5em;
+  }
+
+  h3 {
+    font-size: 1.2em;
+  }
+
+  img {
+    width: 100%;
+    height: auto;
+  }
+}
+/*********************** Pour Tablette ************************ */
+@media (max-width: 768px) {
+  body {
+    font-size: 14px;
+  }
+
+  #container {
+    width: 100%;
+    padding: 10px;
+  }
+
+  main {
+    flex-direction: column;
+    padding: 2em;
+  }
+
+  article {
+    width: 100%;
+  }
+
+  aside {
+    width: 100%;
+  }
+
+  nav {
+    padding: 1em;
+    width: 100%;
+  }
+
+  h1 {
+    font-size: 1.5em;
+  }
+
+  h3 {
+    font-size: 1.2em;
+  }
+
+  img {
+    width: 100%;
+    height: auto;
+  }
+}
+/************************** une version pour tablette de 769px à 1024px****************** */
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  body {
+    font-size: 16px;
+  }
+
+  #container {
+    width: 90%;
+  }
+
+  main {
+    flex-direction: row;
+    padding: 2em;
+  }
+
+  article {
+    width: 70%;
+    padding: 1em;
+  }
+
+  aside {
+    width: 30%;
+    padding: 1em;
+  }
+
+  nav {
+    padding: 1.5em;
+  }
+
+  h1 {
+    font-size: 2em;
+  }
+
+  h3 {
+    font-size: 1.5em;
+  }
+
+  img {
+    width: 100%;
+    height: auto;
+  }
+}
